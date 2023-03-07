@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,18 +28,22 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
  
 
     <!-- Navbar Start -->
 
     <div class="container-fluid p-0">
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
-        
-    <a class="navbar-brand" href="#">
-      <img src="img/amecore.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-      <span class="text-primary">Amecore</span>-Technology Company Limited
-    </a>
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark  navbar-dark  py-lg-0 px-lg-5">
+      <div class="navbar-brand row d-none d-lg-block " >
+       <img src="img/amec.png" alt="" width="50" height="50" style="padding-bottom:10px ;" >
+       <span class="text-primary "  style="font-size:40px;padding-left:10px;">Ame</span><span  style="font-size:40px">core</span>
+      </div>
+         
+          <a href="" class="navbar-brand d-block d-lg-none">
+         
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Ame</span>core</h1>
+            </a>
           
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -47,7 +51,7 @@
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
                     <a href="index.php" class="nav-item nav-link ">Home</a>
-                    <a href="contact.php" class="nav-item nav-link active">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link active">Contacts</a>
                     <a href="solution.html" class="nav-item nav-link">Solution</a>
                 </div>
          
@@ -67,7 +71,17 @@
             <div class="col-12 col-sm-8 mb-5">
                 <div class="contact-form">
                     <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" method="POST" action="connection.php">
+                    
+                    <?php if (isset($_GET['success']) && $_GET['success'] == 1) { ?>
+                    <div class="success-message d-none d-lg-block"><strong>Your message has been sent. </strong></div>
+                    <script>
+                         // Hide the success message after 5 seconds
+                          setTimeout(function() {
+                          document.querySelector('.success-message').remove();
+                         }, 5000);
+                     </script>
+                    <?php } ?>
+                    <form method="POST" action="connection.php">
                         <div class="control-group">
                            
                             <input type="text" class="form-control p-4" id="name" placeholder="Your Name" name="name" required="required" data-validation-required-message="Please enter your name" />
@@ -86,6 +100,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
+                            <input type="hidden" name="contact_form" value="1">
                             <button class="btn btn-secondary py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
                         </div>
                     </form>
@@ -109,7 +124,8 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Get In Touch</h5>
                         <p><i class="fa fa-map-marker-alt mr-2"></i>C&G Plaza, Plot 672 Mwai Kibaki Road, Mikocheni</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+255 713 999 934</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>
+                        <a href="tel:+255713999934" class="text-white" >+255 713 999 934</a></p> 
                         <p><i class="fa fa-envelope mr-2"></i>info@amecore.co.tz</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
@@ -121,23 +137,23 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Popular Links</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Team</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+                            <a class="text-white" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Newsletter</h5>
                         <form method="POST" action="connection.php">
                             <div class="form-group">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" name="name" required="required" />
+                                <input type="text" class="form-control border-0" placeholder="Your Name" name="username" required="required" />
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" name="email" required="required" />
+                                <input type="email" class="form-control border-0" placeholder="Your Email" name="useremail" required="required" />
                             </div>
                             <div>
+                            <input type="hidden" name="newsletter_form" value="1">
                                 <button class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
                             </div>
                         </form>

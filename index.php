@@ -28,7 +28,7 @@
     
 </head>
 
-<body>
+<body class="bg-light">
   
 
     <!-- Navbar Start -->
@@ -66,68 +66,68 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/cctv.jpg" alt="Image">
+                    <img class="w-100  vh-100 "  src="img/camerax2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="pp-3" style="max-width: 900px;">
                             <h1 class="display-3 text-white mb-3"><span class="text-primary">CCTV</span> Camera Installation</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">Transforming for a Digital Future!</h5>
-                            <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Start Now</a>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+                            <a href="#book" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4 mr-3">Start Now</a>
+                            <a href="#learn-more" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/centric.jpg" alt="Image">
+                    <img class="w-100 vh-100 " src="img/customerx.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="pp-3" style="max-width: 900px;">
                             <h1 class="display-3 text-white mb-3"><span class="text-primary">Customer</span>-Centric Solutions</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">Transforming for a Digital Future!</h5>
-                            <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Start Now</a>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+                            <a href="#book" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4 mr-3">Start Now</a>
+                            <a href="#learn-more" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
                         </div>
                     </div>
                 </div>
                   <div class="carousel-item">
-                    <img class="w-100" src="img/cyber.jpg" alt="Image">
+                    <img class="w-100 vh-100 " src="img/cyberx.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="pp-3" style="max-width: 900px;">
                             <h1 class="display-3 text-white mb-3"><span class="text-primary">Security</span> Consultation on Cyber Security</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">Transforming for a Digital Future!</h5>
-                            <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Start Now</a>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+                            <a href="#book" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4 mr-3">Start Now</a>
+                            <a href="#learn-more" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/lan.jpg" alt="Image">
+                    <img class="w-100 vh-100 " src="img/lanx.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="pp-3" style="max-width: 900px;">
                             <h1 class="display-3 text-white mb-3"><span class="text-primary">Local Area</span> Network LAN Installation</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">Transforming for a Digital Future!</h5>
-                            <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Start Now</a>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+                            <a href="#book" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4 mr-3">Start Now</a>
+                            <a href="#learn-more" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/telecom.jpg" alt="Image">
+                    <img class="w-100 vh-100 " src="img/telecom.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="pp-3" style="max-width: 900px;">
                             <h1 class="display-3 text-white mb-3"><span class="text-primary">Telecom</span>munication Systems Installation</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">Transforming for a Digital Future!</h5>
-                            <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Start Now</a>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+                            <a href="#book" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4 mr-3">Start Now</a>
+                            <a href="#learn-more" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/soft.jpeg" alt="Image">
+                    <img class="w-100 vh-100 " src="img/soft.jpeg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="pp-3" style="max-width: 900px;">
                             <h1 class="display-3 text-white mb-3"><span class="text-primary">Software</span> Design for Web Applications</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">Transforming for a Digital Future!</h5>
-                            <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Start Now</a>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+                            <a href="#book" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4 mr-3">Start Now</a>
+                            <a href="#learn-more" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-    <div class="container py-5">
+    <div class="container py-5" id="about">
         <div class="row py-5">
             <div class="col-lg-7 pb-5 pb-lg-0 px-3 px-lg-5">
                 <h4 class="text-secondary mb-3">About Us</h4>
@@ -173,59 +173,59 @@
     <!-- About End -->
 
     <!-- Services Start -->
-    <div class="container-fluid bg-light pt-5">
+    <div class="container-fluid bg-light pt-5" id="learn-more">
         <div class="container py-5">
-            <div class="d-flex flex-column text-center mb-5">
+            <div class="d-flex flex-column text-center mb-5 ">
                 <h4 class="text-secondary mb-3">Our Services</h4>
                 <h1 class="display-4 m-0"><span class="text-primary">Premium</span> Technological Services</h1>
             </div>
             <div class="row pb-3">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5">
+                <div class="col-md-6 col-lg-4 mb-4 " >
+                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5" style="height:300px;">
                         <h3><img  class="hetero" src="icons/cctv (4).png"></h3> 
                         <h3 class="mb-3">CCTV Installation</h3>
-                        <p>Tailored end-to-end cloud solutions to transform your business!</p>
-                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                        <p style="display:none;"> Tailored end-to-end cloud solutions to transform your business!</p>
+                        <a class="text-uppercase font-weight-bold" href="#"  onclick="toggleText(this); return false;">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5">
-                        <h3><img  class="hetero" src="icons/puzzle.png"></h3> 
+                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-4" style="height:300px;">
+                        <h3 class="mt-4"><img  class="hetero" src="icons/puzzle.png"></h3> 
                         <h3 class="mb-3">Customer-Centric Solutions</h3>
-                        <p>Tailored end-to-end cloud solutions to transform your business!</p>
-                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                        <p style="display:none;">Tailored end-to-end cloud solutions to transform your business!</p>
+                        <a class="text-uppercase font-weight-bold" href="javascript:void(0);" onclick="toggleText(this); return false;" >Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5">
+                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5" style="height:300px;">
                         <h3><img  class="hetero" src="icons/cyber-security (2).png"></h3>                         
                         <h3 class="mb-3">Cybersecurity Consultations</h3>
-                        <p>Tailored end-to-end cloud solutions to transform your business!</p>
-                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                        <p  style="display:none;">Tailored end-to-end cloud solutions to transform your business!</p>
+                        <a class="text-uppercase font-weight-bold read-more-btn" href="javascript:void(0);"  onclick="toggleText(this); return false;">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5">
+                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5" style="height:300px;">
                         <h3><img  class="hetero" src="icons/lan (4).png"></h3>                         
                         <h3 class="mb-3">LAN Installation</h3>
-                        <p>Tailored end-to-end cloud solutions to transform your business!</p>
-                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                        <p   style="display:none;">Tailored end-to-end cloud solutions to transform your business!</p>
+                        <a class="text-uppercase font-weight-bold" href="javascript:void(0);"  onclick="toggleText(this); return false;">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5">
-                        <h3><img  class="hetero" src="icons/antenna (1).png "></h3>                         
-                        <h3 class="mb-3">Telecommunication</h3>
-                        <p>Tailored end-to-end cloud solutions to transform your business!</p>
-                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                    <div class="d-flex flex-column  bg-white mb-2 pp-3 " style="height:300px;">
+                        <h3 class= "text-center p-sm-2 mt-5 "><img  class="hetero " src="icons/antenna (1).png "></h3>                         
+                        <h3 class="mb-3 p-sm-1 ml-2" style="text-align: left;">Telecommunication</h3>
+                        <p class="text-center p-sm-2"  id="more" style="display:none;">Tailored end-to-end cloud solutions to transform your business!</p>
+                        <a class="text-uppercase font-weight-bold text-center" href="javascript:void(0);"  onclick="toggleText(this); return false;">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5">
+                    <div class="d-flex flex-column text-center bg-white mb-2 pp-3 p-sm-5" style="height:300px;">
                         <h3><img  class="hetero" src="icons/software-development.png"></h3>                         
                         <h3 class="mb-3">Software Design</h3>
-                        <p>Tailored end-to-end cloud solutions to transform your business!</p>
-                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                        <p  style="display:none;">Tailored end-to-end cloud solutions to transform your business!</p>
+                        <a class="text-uppercase font-weight-bold" href="javascript:void(0);"  onclick="toggleText(this); return false;">Read More</a>
                     </div>
                 </div>
             </div>
@@ -235,7 +235,8 @@
 
 
     <!-- Features Start -->
-    <div class="container">
+   
+    <div class="container mt-4 mb-4">
         <div class="row align-items-center">
             <div class="col-lg-5">
                 <img class="img-fluid w-100" src="img/favicon5.jpg" alt="">
@@ -266,23 +267,33 @@
                     <div class="col-6">
                         <div class="d-flex align-items-center">
                             <h1><img  class="hetero" src="icons/customer-service.png"></h1>
-                            <h5 class="text-truncate m-0">Customer Support</h5>
+                            <h5 class="text-truncate m-0" id="book">Customer Support</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Features End -->
 
 
         <!--Booking-->
-    <div class="container-fluid bg-light">
+    <div class="container-fluid bg-light mt-4" >
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <div class="bg-primary py-5 px-4 px-sm-5">
-
+                    <div class="bg-primary py-5 px-4 px-sm-5" >
+                    <a name="form-top"></a>
+                    <?php if (isset($_GET['success']) && $_GET['success'] == 1) { ?>
+                    <div class="success-message1"><strong>Your message has been sent. </strong></div>
+                    <script>
+                         // Hide the success message after 5 seconds
+                          setTimeout(function() {
+                          document.querySelector('.success-message1').remove();
+                         }, 5000);
+                     </script>
+                    <?php } ?>
                         <form class="py-5" method="POST"  action ="connection.php" >
                             
                             <div class="form-group">
@@ -311,6 +322,7 @@
                                 </select>
                             </div>
                             <div>
+                                 <input type="hidden" name="booking_form" value="1">
                                 <button class="btn btn-dark btn-block border-0 py-3" type="submit">Book Now</button>
                             </div>
                         </form>
@@ -378,7 +390,9 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Get In Touch</h5>
                         <p><i class="fa fa-map-marker-alt mr-2"></i>C&G Plaza, Plot 672 Mwai Kibaki Road, Mikocheni</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+255 713 999 934</p>
+                        <a href="tel:+255713999934" class="text-decoration-none text-white" >
+                        <p><i class="fa fa-phone-alt mr-2"></i>
+                        <a href="tel:+255713999934" class="text-white" >+255 713 999 934</a></p> 
                         <p><i class="fa fa-envelope mr-2"></i>info@amecore.co.tz</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
@@ -390,23 +404,24 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Popular Links</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Team</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="#about"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a class="text-white mb-2" href="#learn-more"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+                            <a class="text-white" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                          
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Newsletter</h5>
                         <form method="POST" action="connection.php">
                             <div class="form-group">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" name="name" required="required" />
+                                <input type="text" class="form-control border-0" placeholder="Your Name" name="username" required="required" />
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" name="email" required="required" />
+                                <input type="email" class="form-control border-0" placeholder="Your Email" name="useremail" required="required" />
                             </div>
                             <div>
+                                <input type="hidden" name="newsletter_form" value="1">
                                 <button class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
                             </div>
                         </form>
@@ -463,6 +478,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/readmore.js"></script>
 </body>
 
 </html>

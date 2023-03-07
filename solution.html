@@ -32,19 +32,17 @@
            
 
     <!-- Navbar Start -->
-   <div class="container-fluid p-0">
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
-        
-            <a class="navbar-brand  d-none d-lg-block" href="#">
-                <!-- <img src="#" alt="" width="30" height="24" class="d-inline-block align-text-top"> -->
-               <span class="text-primary">Amecore</span>-Technology Company Limited
-              </a>
-                   
-                    <a href="" class="navbar-brand d-block d-lg-none">
-                   
-                          <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Ame</span>core</h1>
-                      </a>
-                    
+    <div class="container-fluid p-0">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark  navbar-dark  py-lg-0 px-lg-5">
+      <div class="navbar-brand row d-none d-lg-block " >
+       <img src="img/amec.png" alt="" width="50" height="50" style="padding-bottom:10px ;" >
+       <span class="text-primary "  style="font-size:40px;padding-left:10px;">Ame</span><span  style="font-size:40px">core</span>
+      </div>
+         
+          <a href="" class="navbar-brand d-block d-lg-none">
+         
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Ame</span>core</h1>
+            </a>
           
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +50,7 @@
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
                     <a href="index.php" class="nav-item nav-link ">Home</a>
-                    <a href="contact.php" class="nav-item nav-link ">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link ">Contacts</a>
                     <a href="solution.html" class="nav-item nav-link active">Solution</a>
                 </div>
          
@@ -115,18 +113,20 @@
                 </div>
         
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="row pt-5">
-            <div class="col-lg-4 col-md-12 mb-5">
+    <div class="position-absolute bottom-0">
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5 ">
+        <div class="d-flex justify-content-around pt-5 ">
+            <div class="mb-5 mr-3" style="max-width: 450px;">
                 <h1 class="mb-3 display-5 text-capitalize text-white"><span class="text-primary">Ame</span>core</h1>
                 <p class="m-0">Amecore will help you take advantage of our wide range of Services, leverage data and Analytics to really know your business, protect your systems with the latest in Security solutions, replace or maintain your Devices, or explore your options for Connectivity.</p>
             </div>
-            <div class="col-lg-8 col-md-12">
-                <div class="row">
-                    <div class="col-md-4 mb-5">
+            
+                
+                    <div class=" mb-5">
                         <h5 class="text-primary mb-4">Get In Touch</h5>
                         <p><i class="fa fa-map-marker-alt mr-2"></i>C&G Plaza, Plot 672 Mwai Kibaki Road, Mikocheni</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+255 713 999 934</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>
+                            <a href="tel:+255713999934" class="text-white" >+255 713 999 934</a></p> 
                         <p><i class="fa fa-envelope mr-2"></i>info@amecore.co.tz</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
@@ -135,32 +135,17 @@
                             <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-5">
+                    <div class="mb-5">
                         <h5 class="text-primary mb-4">Popular Links</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Team</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+                            <a class="text-white" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-5">
-                        <h5 class="text-primary mb-4">Newsletter</h5>
-                        <form method="POST" action="connection.php">
-                            <div class="form-group">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" name="name" required="required" />
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" name="email" required="required" />
-                            </div>
-                            <div>
-                                <button class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+                   
+                
         </div>
     </div>
     <div class="container-fluid text-white py-4 px-sm-3 px-md-5" style="background: #111111;">
@@ -188,6 +173,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- Footer End -->
 
 
